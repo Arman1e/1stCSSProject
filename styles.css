@@ -55,3 +55,27 @@ body {
   }
   
   /* -------------------------------------- */
+
+  /* Party section */
+  .partySec {
+    height: 400px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+      url(./Images/Vectorrr.png) no-repeat center center;
+    border-radius: 10px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partyText {
+    grid-column: span 3; 
+    text-align: center; 
+  }
+  
+  .partyImg {
+    grid-column: span 1; 
+    text-align: center;  
+  }
+  
