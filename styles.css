@@ -58,24 +58,43 @@ body {
 
   /* Party section */
   .partySec {
+    margin-top: 50px;
     height: 400px;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
       url(./Images/Vectorrr.png) no-repeat center center;
     border-radius: 10px;
     background-size: cover;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
     justify-content: center;
     align-items: center;
   }
   
   .partyText {
-    grid-column: span 3; 
-    text-align: center; 
+    grid-column: span 2; 
+    text-align: left; 
+    margin-left: 50px;
+    margin-right: 100px;
+    color: white;
+  }
+  .partyText>h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 3rem;
+  }
+  .partyText>div>button{
+    padding: 5px;
+    font:200;
+    background:none;
+    color: aliceblue;
+    border: none;
   }
   
   .partyImg {
     grid-column: span 1; 
-    text-align: center;  
+    text-align: center; 
+    ;
   }
-  
+  .partyImg>img{
+    height:300px;
+    width: 200px;
+  }
