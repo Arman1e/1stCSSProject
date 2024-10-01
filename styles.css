@@ -1,127 +1,146 @@
 body {
-    margin-left: 50px;
-    margin-right: 50px;
-    align-items: center;
-    max-width: 1300px;
-  }
-  /* Header section */
-  .text {
-    color: aliceblue;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .New-text {
-    color: aliceblue;
-    font-size: 3rem;
-    text-align: center;
-  }
-  .banner-img {
-    height: 600px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-      url(./Images/BannerImage.png) no-repeat center
-        center;
-    border-radius: 10px;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  /* ......................... */
-  
-  /* Catagory section */
-  
-  .catagory{
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 100px;
-  }
-  
-  .discount{
-    padding-top: 1rem;
-    font-size: 50px;
-    color: red;
-  }
-  .cat-text1{
-    color: red;
-  }
-  .cat-text2{
-    font-size: 33px;
-  }
-  
-  catagory div img{
-    width: 500px;
-    padding-top: 5px;
-  }
-  
-  /* -------------------------------------- */
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 50px;
+}
 
-  /* Party section */
-  .partySec {
-    margin-top: 50px;
-    height: 400px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
-      url(./Images/Vectorrr.png) no-repeat center center;
-    border-radius: 10px;
-    background-size: cover;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-  }
-  
-  .partyText {
-    grid-column: span 2; 
-    text-align: left; 
-    margin-left: 50px;
-    margin-right: 100px;
-    color: white;
-  }
-  .partyText>h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-    font-size: 3rem;
-  }
-  .partyText>p{
-    color: wheat;
-  }
-  .partyText>div>button{
-    padding: 5px;
-    font:200;
-    background:none;
-    color: aliceblue;
-    border: none;
-  }
-  
-  .partyImg {
-    grid-column: span 1; 
-    text-align: center; 
-    ;
-  }
-  .partyImg>img{
-    height:300px;
-    width: 200px;
-  }
-  /* ----------------------------------- */
-  /* Party Timing */
-  .partyTiming{
-    margin-top: 50px;
-    background: linear-gradient(to bottom, rgb(226, 183, 183), rgba(255, 255, 255, 0));
-    text-align: center;
-    border-radius: .5rem;
-    padding: 50px;
-    font-size: 20px;
-  }
-  .timingDetails{
-    color: red;
-  }
-  .partyTiming>button{
-    background-color: red;
-    color: aliceblue;
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  /* ---------------------- */
+header .text {
+  color: aliceblue;
+  text-align: center;
+  font-size: 1.5rem;
+}
 
-  
+.new-text {
+  font-size: 3rem;
+}
+
+.banner-img {
+  height: 600px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url(./Images/BannerImage.png) no-repeat center center / cover;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.discount {
+  font-size: 50px;
+  color: red;
+  padding-top: 1rem;
+}
+
+.cat-text1 {
+  color: red;
+}
+
+.cat-text2 {
+  font-size: 33px;
+}
+
+.category img {
+  width: 500px;
+  margin-top: 5px;
+}
+
+.party-sec {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+  height: 400px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url(./Images/Vectorrr.png) no-repeat center / cover;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.party-text {
+  color: white;
+}
+
+.party-text h1 {
+  font-size: 3rem;
+}
+
+.party-text p {
+  color: wheat;
+}
+
+.party-text button {
+  padding: 5px;
+  background: none;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+}
+
+.party-img img {
+  height: 300px;
+  width: 200px;
+}
+
+.party-timing {
+  text-align: center;
+  background: linear-gradient(to bottom, rgb(226, 183, 183), rgba(255, 255, 255, 0));
+  border-radius: 0.5rem;
+  padding: 50px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.timing-details {
+  color: red;
+}
+
+.party-timing button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.coming-soon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.coming-soon > div {
+  flex: 1;
+}
+
+.left-div {
+  color: gray;
+  text-align: start;
+}
+
+.left-div h6 {
+  color: red;
+}
+
+.ellipse {
+  text-align: center;
+  background: url(./Images/Ellipse1.png) no-repeat center;
+  background-size: 50%;
+  position: relative;
+}
+
+.ellipse img {
+  width: 60%;
+  height: 90%;
+}
+
+.group96 {
+  width: 20%;
+  height: 20%;
+}
