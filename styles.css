@@ -3,7 +3,7 @@ body {
   max-width: 1300px;
   padding: 0 50px;
 }
-
+/* Header section */
 header .text {
   color: aliceblue;
   text-align: center;
@@ -23,6 +23,9 @@ header .text {
   justify-content: center;
   align-items: center;
 }
+/* --------------------- */
+
+/* Catagory section */
 
 .category {
   text-align: center;
@@ -47,6 +50,7 @@ header .text {
   width: 500px;
   margin-top: 5px;
 }
+/* ----------------------- */
 
 .party-sec {
   display: grid;
@@ -107,7 +111,9 @@ header .text {
   border-radius: 5px;
   cursor: pointer;
 }
+/* ---------------------------- */
 
+/* Coming soon section */
 .coming-soon {
   display: flex;
   justify-content: space-between;
@@ -144,3 +150,5 @@ header .text {
   width: 20%;
   height: 20%;
 }
+/* ------------------- */
+
